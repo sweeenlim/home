@@ -4,7 +4,7 @@ import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, message, icons }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -17,13 +17,13 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+          {/* <h1 ref={ref} className="display-1">
             {title}
-          </h1>
+          </h1> */}
           <Typist>
-            <div className="lead typist">
+          <h1 ref={ref} className="display-1">
               {message}
-            </div>
+            </h1>
           </Typist>
           <div className="p-5">
             {icons.map((icon, index) => (
