@@ -127,7 +127,7 @@ const experiences = {
     {
       role: 'Technology Summer Analyst',
       companylogo: require('../assets/img/hsbc.png'),
-      date: 'May 2024 – Present',
+      date: 'May 2024 – August 2024',
     },
     {
       role: 'AI Developer',
@@ -137,7 +137,7 @@ const experiences = {
     {
       role: 'Data Analyst',
       companylogo: require('../assets/img/lta.jpeg'),
-      date: 'May 2023 – August 2024',
+      date: 'May 2023 – August 2023',
     },
     {
       role: 'Machine Learning Intern',
